@@ -18,7 +18,6 @@
         $orderCount = $_POST[$menu->getName()];
         $menu->setOrderCount($orderCount);
         $totalPayment += $menu->getTotalPrice();
-        
       ?>
       <p class="order-amount">
         <?php echo $menu->getName() ?>
